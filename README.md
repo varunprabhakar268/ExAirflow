@@ -8,18 +8,16 @@ https://docs.google.com/document/d/12JFKxV5eifEQpIHFPz1FlazLOB9CwPqJ9nRze_lPon0/
 
 ## Prerequisites
 
-### SETUP AIRFLOW
-​
+### SETUP AIRFLOW​
 1.  install from pypi using pip
  
     `pip install apache-airflow`
     
 2. initialize the database
-​
+
     `airflow initdb`
-    ~~~~
-### Install BigQuery
-​
+    
+### Install BigQuery​
 1. Install BigQuery using the following command:
     
    `pip install google-cloud-bigquery` 
@@ -31,13 +29,12 @@ https://docs.google.com/document/d/12JFKxV5eifEQpIHFPz1FlazLOB9CwPqJ9nRze_lPon0/
 3. Download the Json file that contains your key.
 ​
 4.  export GOOGLE_APPLICATION_CREDENTIALS to point to the downloaded json file using the command:
+    
     `export GOOGLE_APPLICATION_CREDENTIALS="key.json"` 
     
 ### Steps to be followed before running the application:
 ​
-1. Copy and paste the covid_india_dag.py file into the dags folder inside your airflow.
-​
-    `home/ninleaps/airflow/dags`
+1. Copy and paste the covid_india_dag.py file into the dags folder inside your airflow: `airflow/dags`
 ​
 2. Create a folder named Data in which the csv files will be stored.
 
