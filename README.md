@@ -1,13 +1,14 @@
 #Covid India Pipepline
 
 ## Getting Started:
+
 This is a Data On-Boarding Pipeline built from scratch using Apache Airflow in Python to fetch daily COVID19 cases from all states in India and ingest it to Big Query Table.
 To know more about this pipeline. click on the link below.
 https://docs.google.com/document/d/12JFKxV5eifEQpIHFPz1FlazLOB9CwPqJ9nRze_lPon0/edit
 
 ## Prerequisites
 
-###SETUP AIRFLOW
+### SETUP AIRFLOW
 ​
 1.  install from pypi using pip
  
@@ -17,7 +18,7 @@ https://docs.google.com/document/d/12JFKxV5eifEQpIHFPz1FlazLOB9CwPqJ9nRze_lPon0/
 ​
     `airflow initdb`
     ~~~~
-###Install BigQuery
+### Install BigQuery
 ​
 1. Install BigQuery using the following command:
     
