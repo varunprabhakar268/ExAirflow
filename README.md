@@ -35,7 +35,7 @@ https://docs.google.com/document/d/12JFKxV5eifEQpIHFPz1FlazLOB9CwPqJ9nRze_lPon0/
     
 ### Steps to be followed before running the application:
 ​
-1. Copy and paste the Covid_India_SampleDag.py file into the dags folder inside your airflow.
+1. Copy and paste the covid_india_dag.py file into the dags folder inside your airflow.
 ​
     `home/ninleaps/airflow/dags`
 ​
