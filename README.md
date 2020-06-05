@@ -8,7 +8,7 @@ https://docs.google.com/document/d/12JFKxV5eifEQpIHFPz1FlazLOB9CwPqJ9nRze_lPon0/
 
 ## Prerequisites
 
-### SETUP AIRFLOW​
+### Airflow Setup​
 1.  install from pypi using pip
  
     `pip install apache-airflow`
@@ -32,8 +32,7 @@ https://docs.google.com/document/d/12JFKxV5eifEQpIHFPz1FlazLOB9CwPqJ9nRze_lPon0/
     
     `export GOOGLE_APPLICATION_CREDENTIALS="key.json"` 
     
-### Steps to be followed before running the application:
-​
+### Steps to be followed before running the application:​
 1. Copy and paste the covid_india_dag.py file into the dags folder inside your airflow: `airflow/dags`
 ​
 2. Create a folder named Data in which the csv files will be stored.
