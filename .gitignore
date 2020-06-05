@@ -1,1 +1,5 @@
-pipeline.png
+BQKey.json
+logs/example_bash_operator
+logs/dag_processor_manager
+logs/scheduler
+dags/__pycache__

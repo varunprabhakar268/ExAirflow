@@ -15,6 +15,7 @@ from google.cloud import bigquery
 from google.oauth2 import service_account
 import pydata_google_auth
 import csv
+from pandas_gbq.gbq import GenericGBQException
 
 default_args = {
     'owner': 'airflow',
@@ -27,7 +28,7 @@ default_args = {
     'retry_delay': timedelta(minutes=5),
 }
 previous_day = datetime.now() - timedelta(days=1)
-credentials = service_account.Credentials.from_service_account_file('/home/nineleaps/BQKey.json',)
+credentials = service_account.Credentials.from_service_account_file('/home/nineleaps/airflow/BQKey.json',)
 project_id = credentials.project_id
 
 def get_confirmed_cases():
@@ -43,8 +44,8 @@ def get_confirmed_cases():
         confirmed_cases_df.columns = ['statecode', 'confirmed_cases']
         confirmed_cases_df.insert(0, "date", previous_day.strftime("%d-%b-%y"), True)
         return confirmed_cases_df
-    except requests.exceptions.HTTPError as err:
-        logging.error('Http Error: ' + str(err))
+    except requests.exceptions.RequestException as e:
+        logging.error("Error:", err)
         raise SystemExit(err)
 
 
@@ -58,8 +59,8 @@ def get_states_list():
         state_list_df = state_list_df[['state', 'statecode']]
         state_list_df['statecode'] = state_list_df['statecode'].str.lower()
         return state_list_df
-    except requests.exceptions.HTTPError as err:
-        logging.error('Http Error: ' + str(err))
+    except requests.exceptions.RequestException as e:
+        logging.error("Error:", err)
         raise SystemExit(err)
 
 
@@ -84,7 +85,6 @@ def csv_to_table():
         logging.info("successfully uploaded data to table.")
     except GenericGBQException as e:
         logging.error(str(e))
-        raise SystemExit(err)
 
 
 def get_row_count_from_table():
@@ -94,7 +94,6 @@ def get_row_count_from_table():
         return total_rows_df['total_rows'][0]
     except GenericGBQException as e:
         logging.error(str(e))
-        raise SystemExit(err)
 
 
 def get_csv_row_count():
@@ -121,7 +120,6 @@ def push_upload_status_to_table():
         logging.info("successfully uploaded data to table.")
     except GenericGBQException as e:
         logging.error(str(e))
-        raise SystemExit(err)
 
 
 dag = DAG(
