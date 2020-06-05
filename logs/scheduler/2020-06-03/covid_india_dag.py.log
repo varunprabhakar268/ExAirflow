@@ -1,0 +1,6 @@
+[2020-06-03 19:05:25,491] {scheduler_job.py:154} INFO - Started process (PID=31820) to work on /home/nineleaps/airflow/dags/covid_india_dag.py
+[2020-06-03 19:05:25,497] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/airflow/dags/covid_india_dag.py for tasks to queue
+[2020-06-03 19:05:25,498] {logging_mixin.py:112} INFO - [2020-06-03 19:05:25,498] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/airflow/dags/covid_india_dag.py
+[2020-06-03 19:05:25,632] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_india_dag']) retrieved from /home/nineleaps/airflow/dags/covid_india_dag.py
+[2020-06-03 19:05:25,641] {logging_mixin.py:112} INFO - [2020-06-03 19:05:25,641] {dag.py:1501} INFO - Creating ORM DAG for covid_india_dag
+[2020-06-03 19:05:25,659] {scheduler_job.py:162} INFO - Processing /home/nineleaps/airflow/dags/covid_india_dag.py took 0.168 seconds

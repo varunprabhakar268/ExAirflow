@@ -1,0 +1,79 @@
+[2020-06-04 17:16:16,619] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: covid_india_dag.source_to_csv 2020-06-04T11:44:21.939411+00:00 [queued]>
+[2020-06-04 17:16:16,628] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: covid_india_dag.source_to_csv 2020-06-04T11:44:21.939411+00:00 [queued]>
+[2020-06-04 17:16:16,628] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-04 17:16:16,628] {taskinstance.py:880} INFO - Starting attempt 2 of 2
+[2020-06-04 17:16:16,629] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-04 17:16:16,637] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): source_to_csv> on 2020-06-04T11:44:21.939411+00:00
+[2020-06-04 17:16:16,639] {standard_task_runner.py:53} INFO - Started process 20737 to run task
+[2020-06-04 17:16:16,681] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: covid_india_dag.source_to_csv 2020-06-04T11:44:21.939411+00:00 [running]> nineleaps-ThinkPad-L470
+[2020-06-04 17:16:17,096] {taskinstance.py:1145} ERROR - name 'get_state_list' is not defined
+Traceback (most recent call last):
+  File "/home/nineleaps/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 983, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/home/nineleaps/.local/lib/python3.6/site-packages/airflow/operators/python_operator.py", line 113, in execute
+    return_value = self.execute_callable()
+  File "/home/nineleaps/.local/lib/python3.6/site-packages/airflow/operators/python_operator.py", line 118, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/nineleaps/airflow/dags/Covid_India_SampleDag.py", line 63, in source_to_csv
+    data = get_covid_data()
+  File "/home/nineleaps/airflow/dags/Covid_India_SampleDag.py", line 56, in get_covid_data
+    state_list_df = get_state_list()
+NameError: name 'get_state_list' is not defined
+[2020-06-04 17:16:17,098] {taskinstance.py:1187} INFO - All retries failed; marking task as FAILED.dag_id=covid_india_dag, task_id=source_to_csv, execution_date=20200604T114421, start_date=20200604T114616, end_date=20200604T114617
+[2020-06-04 17:16:22,223] {taskinstance.py:1206} ERROR - Failed to send email to: ['captaincold268@gmail.com']
+[2020-06-04 17:16:22,224] {taskinstance.py:1207} ERROR - (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials gp4sm5137048pjb.26 - gsmtp')
+Traceback (most recent call last):
+  File "/home/nineleaps/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 983, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/home/nineleaps/.local/lib/python3.6/site-packages/airflow/operators/python_operator.py", line 113, in execute
+    return_value = self.execute_callable()
+  File "/home/nineleaps/.local/lib/python3.6/site-packages/airflow/operators/python_operator.py", line 118, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/nineleaps/airflow/dags/Covid_India_SampleDag.py", line 63, in source_to_csv
+    data = get_covid_data()
+  File "/home/nineleaps/airflow/dags/Covid_India_SampleDag.py", line 56, in get_covid_data
+    state_list_df = get_state_list()
+NameError: name 'get_state_list' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nineleaps/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1475, in email_alert
+    send_email(self.task.email, subject, html_content)
+  File "/home/nineleaps/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 60, in send_email
+    mime_subtype=mime_subtype, mime_charset=mime_charset, **kwargs)
+  File "/home/nineleaps/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 106, in send_email_smtp
+    send_MIME_email(smtp_mail_from, recipients, msg, dryrun)
+  File "/home/nineleaps/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 130, in send_MIME_email
+    s.login(SMTP_USER, SMTP_PASSWORD)
+  File "/usr/lib/python3.6/smtplib.py", line 730, in login
+    raise last_exception
+  File "/usr/lib/python3.6/smtplib.py", line 721, in login
+    initial_response_ok=initial_response_ok)
+  File "/usr/lib/python3.6/smtplib.py", line 642, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials o13sm4089508pgs.82 - gsmtp')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nineleaps/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1204, in handle_failure
+    self.email_alert(error)
+  File "/home/nineleaps/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1477, in email_alert
+    send_email(self.task.email, subject, html_content_err)
+  File "/home/nineleaps/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 60, in send_email
+    mime_subtype=mime_subtype, mime_charset=mime_charset, **kwargs)
+  File "/home/nineleaps/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 106, in send_email_smtp
+    send_MIME_email(smtp_mail_from, recipients, msg, dryrun)
+  File "/home/nineleaps/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 130, in send_MIME_email
+    s.login(SMTP_USER, SMTP_PASSWORD)
+  File "/usr/lib/python3.6/smtplib.py", line 730, in login
+    raise last_exception
+  File "/usr/lib/python3.6/smtplib.py", line 721, in login
+    initial_response_ok=initial_response_ok)
+  File "/usr/lib/python3.6/smtplib.py", line 642, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials gp4sm5137048pjb.26 - gsmtp')
+[2020-06-04 17:16:26,621] {logging_mixin.py:112} INFO - [2020-06-04 17:16:26,620] {local_task_job.py:103} INFO - Task exited with return code 1

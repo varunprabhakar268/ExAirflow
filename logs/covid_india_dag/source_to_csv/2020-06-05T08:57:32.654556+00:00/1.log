@@ -1,0 +1,14 @@
+[2020-06-05 14:28:10,839] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: covid_india_dag.source_to_csv 2020-06-05T08:57:32.654556+00:00 [queued]>
+[2020-06-05 14:28:10,849] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: covid_india_dag.source_to_csv 2020-06-05T08:57:32.654556+00:00 [queued]>
+[2020-06-05 14:28:10,849] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-05 14:28:10,849] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-06-05 14:28:10,849] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-05 14:28:10,858] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): source_to_csv> on 2020-06-05T08:57:32.654556+00:00
+[2020-06-05 14:28:10,861] {standard_task_runner.py:53} INFO - Started process 10186 to run task
+[2020-06-05 14:28:10,895] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: covid_india_dag.source_to_csv 2020-06-05T08:57:32.654556+00:00 [running]> nineleaps-ThinkPad-L470
+[2020-06-05 14:28:11,836] {logging_mixin.py:112} INFO - [2020-06-05 14:28:11,835] {Covid_India_SampleDag.py:77} INFO - successfully created csv.
+[2020-06-05 14:28:11,836] {python_operator.py:114} INFO - Done. Returned value was: None
+[2020-06-05 14:28:11,845] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=covid_india_dag, task_id=source_to_csv, execution_date=20200605T085732, start_date=20200605T085810, end_date=20200605T085811
+[2020-06-05 14:28:20,826] {logging_mixin.py:112} INFO - [2020-06-05 14:28:20,826] {local_task_job.py:103} INFO - Task exited with return code 0

@@ -1,0 +1,236 @@
+[2020-06-04 16:06:20,565] {scheduler_job.py:154} INFO - Started process (PID=14489) to work on /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:06:20,567] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/airflow/dags/covid_india.py for tasks to queue
+[2020-06-04 16:06:20,567] {logging_mixin.py:112} INFO - [2020-06-04 16:06:20,567] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:06:20,632] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_india_dag']) retrieved from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:06:20,661] {scheduler_job.py:1284} INFO - Processing covid_india_dag
+[2020-06-04 16:06:20,682] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_india_dag> because no tasks in DAG have SLAs
+[2020-06-04 16:06:20,686] {scheduler_job.py:162} INFO - Processing /home/nineleaps/airflow/dags/covid_india.py took 0.121 seconds
+[2020-06-04 16:07:14,613] {scheduler_job.py:154} INFO - Started process (PID=14544) to work on /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:07:14,616] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/airflow/dags/covid_india.py for tasks to queue
+[2020-06-04 16:07:14,617] {logging_mixin.py:112} INFO - [2020-06-04 16:07:14,616] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:07:14,733] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_india_dag']) retrieved from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:07:14,753] {scheduler_job.py:1284} INFO - Processing covid_india_dag
+[2020-06-04 16:07:14,771] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_india_dag> because no tasks in DAG have SLAs
+[2020-06-04 16:07:14,774] {scheduler_job.py:162} INFO - Processing /home/nineleaps/airflow/dags/covid_india.py took 0.161 seconds
+[2020-06-04 16:08:08,701] {scheduler_job.py:154} INFO - Started process (PID=14600) to work on /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:08:08,707] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/airflow/dags/covid_india.py for tasks to queue
+[2020-06-04 16:08:08,708] {logging_mixin.py:112} INFO - [2020-06-04 16:08:08,707] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:08:08,788] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_india_dag']) retrieved from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:08:08,806] {scheduler_job.py:1284} INFO - Processing covid_india_dag
+[2020-06-04 16:08:08,819] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_india_dag> because no tasks in DAG have SLAs
+[2020-06-04 16:08:08,822] {scheduler_job.py:162} INFO - Processing /home/nineleaps/airflow/dags/covid_india.py took 0.121 seconds
+[2020-06-04 16:09:02,798] {scheduler_job.py:154} INFO - Started process (PID=14645) to work on /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:09:02,808] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/airflow/dags/covid_india.py for tasks to queue
+[2020-06-04 16:09:02,810] {logging_mixin.py:112} INFO - [2020-06-04 16:09:02,809] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:09:02,921] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_india_dag']) retrieved from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:09:02,938] {scheduler_job.py:1284} INFO - Processing covid_india_dag
+[2020-06-04 16:09:02,949] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_india_dag> because no tasks in DAG have SLAs
+[2020-06-04 16:09:02,952] {scheduler_job.py:162} INFO - Processing /home/nineleaps/airflow/dags/covid_india.py took 0.154 seconds
+[2020-06-04 16:09:56,862] {scheduler_job.py:154} INFO - Started process (PID=14703) to work on /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:09:56,870] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/airflow/dags/covid_india.py for tasks to queue
+[2020-06-04 16:09:56,871] {logging_mixin.py:112} INFO - [2020-06-04 16:09:56,870] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:09:56,970] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_india_dag']) retrieved from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:09:56,987] {scheduler_job.py:1284} INFO - Processing covid_india_dag
+[2020-06-04 16:09:56,999] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_india_dag> because no tasks in DAG have SLAs
+[2020-06-04 16:09:57,002] {scheduler_job.py:162} INFO - Processing /home/nineleaps/airflow/dags/covid_india.py took 0.140 seconds
+[2020-06-04 16:10:50,918] {scheduler_job.py:154} INFO - Started process (PID=14775) to work on /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:10:50,923] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/airflow/dags/covid_india.py for tasks to queue
+[2020-06-04 16:10:50,923] {logging_mixin.py:112} INFO - [2020-06-04 16:10:50,923] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:10:51,005] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_india_dag']) retrieved from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:10:51,022] {scheduler_job.py:1284} INFO - Processing covid_india_dag
+[2020-06-04 16:10:51,034] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_india_dag> because no tasks in DAG have SLAs
+[2020-06-04 16:10:51,037] {scheduler_job.py:162} INFO - Processing /home/nineleaps/airflow/dags/covid_india.py took 0.119 seconds
+[2020-06-04 16:11:44,983] {scheduler_job.py:154} INFO - Started process (PID=14843) to work on /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:11:44,990] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/airflow/dags/covid_india.py for tasks to queue
+[2020-06-04 16:11:44,991] {logging_mixin.py:112} INFO - [2020-06-04 16:11:44,991] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:11:45,081] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_india_dag']) retrieved from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:11:45,099] {scheduler_job.py:1284} INFO - Processing covid_india_dag
+[2020-06-04 16:11:45,110] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_india_dag> because no tasks in DAG have SLAs
+[2020-06-04 16:11:45,113] {scheduler_job.py:162} INFO - Processing /home/nineleaps/airflow/dags/covid_india.py took 0.131 seconds
+[2020-06-04 16:12:39,001] {scheduler_job.py:154} INFO - Started process (PID=14889) to work on /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:12:39,003] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/airflow/dags/covid_india.py for tasks to queue
+[2020-06-04 16:12:39,003] {logging_mixin.py:112} INFO - [2020-06-04 16:12:39,003] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:12:39,070] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_india_dag']) retrieved from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:12:39,092] {scheduler_job.py:1284} INFO - Processing covid_india_dag
+[2020-06-04 16:12:39,106] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_india_dag> because no tasks in DAG have SLAs
+[2020-06-04 16:12:39,109] {scheduler_job.py:162} INFO - Processing /home/nineleaps/airflow/dags/covid_india.py took 0.108 seconds
+[2020-06-04 16:13:33,102] {scheduler_job.py:154} INFO - Started process (PID=14992) to work on /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:13:33,113] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/airflow/dags/covid_india.py for tasks to queue
+[2020-06-04 16:13:33,115] {logging_mixin.py:112} INFO - [2020-06-04 16:13:33,114] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:13:33,233] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_india_dag']) retrieved from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:13:33,253] {scheduler_job.py:1284} INFO - Processing covid_india_dag
+[2020-06-04 16:13:33,268] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_india_dag> because no tasks in DAG have SLAs
+[2020-06-04 16:13:33,271] {scheduler_job.py:162} INFO - Processing /home/nineleaps/airflow/dags/covid_india.py took 0.169 seconds
+[2020-06-04 16:14:27,164] {scheduler_job.py:154} INFO - Started process (PID=15060) to work on /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:14:27,174] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/airflow/dags/covid_india.py for tasks to queue
+[2020-06-04 16:14:27,176] {logging_mixin.py:112} INFO - [2020-06-04 16:14:27,175] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:14:27,270] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_india_dag']) retrieved from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:14:27,288] {scheduler_job.py:1284} INFO - Processing covid_india_dag
+[2020-06-04 16:14:27,300] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_india_dag> because no tasks in DAG have SLAs
+[2020-06-04 16:14:27,302] {scheduler_job.py:162} INFO - Processing /home/nineleaps/airflow/dags/covid_india.py took 0.138 seconds
+[2020-06-04 16:15:21,236] {scheduler_job.py:154} INFO - Started process (PID=15104) to work on /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:15:21,245] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/airflow/dags/covid_india.py for tasks to queue
+[2020-06-04 16:15:21,247] {logging_mixin.py:112} INFO - [2020-06-04 16:15:21,246] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:15:21,344] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_india_dag']) retrieved from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:15:21,361] {scheduler_job.py:1284} INFO - Processing covid_india_dag
+[2020-06-04 16:15:21,373] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_india_dag> because no tasks in DAG have SLAs
+[2020-06-04 16:15:21,376] {scheduler_job.py:162} INFO - Processing /home/nineleaps/airflow/dags/covid_india.py took 0.140 seconds
+[2020-06-04 16:16:15,336] {scheduler_job.py:154} INFO - Started process (PID=15148) to work on /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:16:15,343] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/airflow/dags/covid_india.py for tasks to queue
+[2020-06-04 16:16:15,344] {logging_mixin.py:112} INFO - [2020-06-04 16:16:15,343] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:16:15,417] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_india_dag']) retrieved from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:16:15,442] {scheduler_job.py:1284} INFO - Processing covid_india_dag
+[2020-06-04 16:16:15,457] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_india_dag> because no tasks in DAG have SLAs
+[2020-06-04 16:16:15,459] {scheduler_job.py:162} INFO - Processing /home/nineleaps/airflow/dags/covid_india.py took 0.124 seconds
+[2020-06-04 16:17:09,382] {scheduler_job.py:154} INFO - Started process (PID=15198) to work on /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:17:09,391] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/airflow/dags/covid_india.py for tasks to queue
+[2020-06-04 16:17:09,393] {logging_mixin.py:112} INFO - [2020-06-04 16:17:09,392] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:17:09,482] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_india_dag']) retrieved from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:17:09,499] {scheduler_job.py:1284} INFO - Processing covid_india_dag
+[2020-06-04 16:17:09,511] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_india_dag> because no tasks in DAG have SLAs
+[2020-06-04 16:17:09,513] {scheduler_job.py:162} INFO - Processing /home/nineleaps/airflow/dags/covid_india.py took 0.132 seconds
+[2020-06-04 16:18:03,444] {scheduler_job.py:154} INFO - Started process (PID=15244) to work on /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:18:03,446] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/airflow/dags/covid_india.py for tasks to queue
+[2020-06-04 16:18:03,446] {logging_mixin.py:112} INFO - [2020-06-04 16:18:03,446] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:18:03,510] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_india_dag']) retrieved from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:18:03,527] {scheduler_job.py:1284} INFO - Processing covid_india_dag
+[2020-06-04 16:18:03,539] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_india_dag> because no tasks in DAG have SLAs
+[2020-06-04 16:18:03,542] {scheduler_job.py:162} INFO - Processing /home/nineleaps/airflow/dags/covid_india.py took 0.098 seconds
+[2020-06-04 16:18:57,501] {scheduler_job.py:154} INFO - Started process (PID=15295) to work on /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:18:57,502] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/airflow/dags/covid_india.py for tasks to queue
+[2020-06-04 16:18:57,503] {logging_mixin.py:112} INFO - [2020-06-04 16:18:57,503] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:18:57,574] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_india_dag']) retrieved from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:18:57,591] {scheduler_job.py:1284} INFO - Processing covid_india_dag
+[2020-06-04 16:18:57,603] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_india_dag> because no tasks in DAG have SLAs
+[2020-06-04 16:18:57,606] {scheduler_job.py:162} INFO - Processing /home/nineleaps/airflow/dags/covid_india.py took 0.106 seconds
+[2020-06-04 16:19:51,562] {scheduler_job.py:154} INFO - Started process (PID=15368) to work on /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:19:51,564] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/airflow/dags/covid_india.py for tasks to queue
+[2020-06-04 16:19:51,564] {logging_mixin.py:112} INFO - [2020-06-04 16:19:51,564] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:19:51,634] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_india_dag']) retrieved from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:19:51,653] {scheduler_job.py:1284} INFO - Processing covid_india_dag
+[2020-06-04 16:19:51,668] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_india_dag> because no tasks in DAG have SLAs
+[2020-06-04 16:19:51,671] {scheduler_job.py:162} INFO - Processing /home/nineleaps/airflow/dags/covid_india.py took 0.109 seconds
+[2020-06-04 16:20:45,628] {scheduler_job.py:154} INFO - Started process (PID=15593) to work on /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:20:45,635] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/airflow/dags/covid_india.py for tasks to queue
+[2020-06-04 16:20:45,636] {logging_mixin.py:112} INFO - [2020-06-04 16:20:45,636] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:20:45,717] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_india_dag']) retrieved from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:20:45,735] {scheduler_job.py:1284} INFO - Processing covid_india_dag
+[2020-06-04 16:20:45,749] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_india_dag> because no tasks in DAG have SLAs
+[2020-06-04 16:20:45,752] {scheduler_job.py:162} INFO - Processing /home/nineleaps/airflow/dags/covid_india.py took 0.123 seconds
+[2020-06-04 16:21:39,739] {scheduler_job.py:154} INFO - Started process (PID=15684) to work on /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:21:39,746] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/airflow/dags/covid_india.py for tasks to queue
+[2020-06-04 16:21:39,747] {logging_mixin.py:112} INFO - [2020-06-04 16:21:39,747] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:21:39,835] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_india_dag']) retrieved from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:21:39,853] {scheduler_job.py:1284} INFO - Processing covid_india_dag
+[2020-06-04 16:21:39,869] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_india_dag> because no tasks in DAG have SLAs
+[2020-06-04 16:21:39,874] {scheduler_job.py:162} INFO - Processing /home/nineleaps/airflow/dags/covid_india.py took 0.135 seconds
+[2020-06-04 16:22:33,785] {scheduler_job.py:154} INFO - Started process (PID=15753) to work on /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:22:33,796] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/airflow/dags/covid_india.py for tasks to queue
+[2020-06-04 16:22:33,798] {logging_mixin.py:112} INFO - [2020-06-04 16:22:33,797] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:22:33,955] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_india_dag']) retrieved from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:22:33,972] {scheduler_job.py:1284} INFO - Processing covid_india_dag
+[2020-06-04 16:22:33,984] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_india_dag> because no tasks in DAG have SLAs
+[2020-06-04 16:22:33,987] {scheduler_job.py:162} INFO - Processing /home/nineleaps/airflow/dags/covid_india.py took 0.203 seconds
+[2020-06-04 16:23:27,851] {scheduler_job.py:154} INFO - Started process (PID=15810) to work on /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:23:27,857] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/airflow/dags/covid_india.py for tasks to queue
+[2020-06-04 16:23:27,858] {logging_mixin.py:112} INFO - [2020-06-04 16:23:27,858] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:23:27,990] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_india_dag']) retrieved from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:23:28,009] {scheduler_job.py:1284} INFO - Processing covid_india_dag
+[2020-06-04 16:23:28,024] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_india_dag> because no tasks in DAG have SLAs
+[2020-06-04 16:23:28,027] {scheduler_job.py:162} INFO - Processing /home/nineleaps/airflow/dags/covid_india.py took 0.176 seconds
+[2020-06-04 16:24:21,910] {scheduler_job.py:154} INFO - Started process (PID=15867) to work on /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:24:21,914] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/airflow/dags/covid_india.py for tasks to queue
+[2020-06-04 16:24:21,915] {logging_mixin.py:112} INFO - [2020-06-04 16:24:21,915] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:24:22,009] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_india_dag']) retrieved from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:24:22,027] {scheduler_job.py:1284} INFO - Processing covid_india_dag
+[2020-06-04 16:24:22,039] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_india_dag> because no tasks in DAG have SLAs
+[2020-06-04 16:24:22,041] {scheduler_job.py:162} INFO - Processing /home/nineleaps/airflow/dags/covid_india.py took 0.131 seconds
+[2020-06-04 16:25:15,934] {scheduler_job.py:154} INFO - Started process (PID=15920) to work on /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:25:15,937] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/airflow/dags/covid_india.py for tasks to queue
+[2020-06-04 16:25:15,937] {logging_mixin.py:112} INFO - [2020-06-04 16:25:15,937] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:25:16,030] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_india_dag']) retrieved from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:25:16,048] {scheduler_job.py:1284} INFO - Processing covid_india_dag
+[2020-06-04 16:25:16,060] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_india_dag> because no tasks in DAG have SLAs
+[2020-06-04 16:25:16,063] {scheduler_job.py:162} INFO - Processing /home/nineleaps/airflow/dags/covid_india.py took 0.129 seconds
+[2020-06-04 16:26:10,011] {scheduler_job.py:154} INFO - Started process (PID=15972) to work on /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:26:10,020] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/airflow/dags/covid_india.py for tasks to queue
+[2020-06-04 16:26:10,022] {logging_mixin.py:112} INFO - [2020-06-04 16:26:10,021] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:26:10,108] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_india_dag']) retrieved from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:26:10,125] {scheduler_job.py:1284} INFO - Processing covid_india_dag
+[2020-06-04 16:26:10,137] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_india_dag> because no tasks in DAG have SLAs
+[2020-06-04 16:26:10,140] {scheduler_job.py:162} INFO - Processing /home/nineleaps/airflow/dags/covid_india.py took 0.129 seconds
+[2020-06-04 16:27:04,073] {scheduler_job.py:154} INFO - Started process (PID=16033) to work on /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:27:04,076] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/airflow/dags/covid_india.py for tasks to queue
+[2020-06-04 16:27:04,076] {logging_mixin.py:112} INFO - [2020-06-04 16:27:04,076] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:27:04,149] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_india_dag']) retrieved from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:27:04,166] {scheduler_job.py:1284} INFO - Processing covid_india_dag
+[2020-06-04 16:27:04,181] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_india_dag> because no tasks in DAG have SLAs
+[2020-06-04 16:27:04,184] {scheduler_job.py:162} INFO - Processing /home/nineleaps/airflow/dags/covid_india.py took 0.112 seconds
+[2020-06-04 16:27:58,155] {scheduler_job.py:154} INFO - Started process (PID=16091) to work on /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:27:58,165] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/airflow/dags/covid_india.py for tasks to queue
+[2020-06-04 16:27:58,167] {logging_mixin.py:112} INFO - [2020-06-04 16:27:58,166] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:27:58,288] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_india_dag']) retrieved from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:27:58,305] {scheduler_job.py:1284} INFO - Processing covid_india_dag
+[2020-06-04 16:27:58,317] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_india_dag> because no tasks in DAG have SLAs
+[2020-06-04 16:27:58,320] {scheduler_job.py:162} INFO - Processing /home/nineleaps/airflow/dags/covid_india.py took 0.165 seconds
+[2020-06-04 16:28:52,243] {scheduler_job.py:154} INFO - Started process (PID=16139) to work on /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:28:52,251] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/airflow/dags/covid_india.py for tasks to queue
+[2020-06-04 16:28:52,252] {logging_mixin.py:112} INFO - [2020-06-04 16:28:52,252] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:28:52,358] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_india_dag']) retrieved from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:28:52,380] {scheduler_job.py:1284} INFO - Processing covid_india_dag
+[2020-06-04 16:28:52,396] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_india_dag> because no tasks in DAG have SLAs
+[2020-06-04 16:28:52,399] {scheduler_job.py:162} INFO - Processing /home/nineleaps/airflow/dags/covid_india.py took 0.156 seconds
+[2020-06-04 16:29:46,292] {scheduler_job.py:154} INFO - Started process (PID=16204) to work on /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:29:46,302] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/airflow/dags/covid_india.py for tasks to queue
+[2020-06-04 16:29:46,303] {logging_mixin.py:112} INFO - [2020-06-04 16:29:46,303] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:29:46,404] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_india_dag']) retrieved from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:29:46,422] {scheduler_job.py:1284} INFO - Processing covid_india_dag
+[2020-06-04 16:29:46,434] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_india_dag> because no tasks in DAG have SLAs
+[2020-06-04 16:29:46,437] {scheduler_job.py:162} INFO - Processing /home/nineleaps/airflow/dags/covid_india.py took 0.145 seconds
+[2020-06-04 16:30:40,394] {scheduler_job.py:154} INFO - Started process (PID=16258) to work on /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:30:40,403] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/airflow/dags/covid_india.py for tasks to queue
+[2020-06-04 16:30:40,404] {logging_mixin.py:112} INFO - [2020-06-04 16:30:40,404] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:30:40,489] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_india_dag']) retrieved from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:30:40,506] {scheduler_job.py:1284} INFO - Processing covid_india_dag
+[2020-06-04 16:30:40,518] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_india_dag> because no tasks in DAG have SLAs
+[2020-06-04 16:30:40,521] {scheduler_job.py:162} INFO - Processing /home/nineleaps/airflow/dags/covid_india.py took 0.127 seconds
+[2020-06-04 16:31:34,440] {scheduler_job.py:154} INFO - Started process (PID=16325) to work on /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:31:34,450] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/airflow/dags/covid_india.py for tasks to queue
+[2020-06-04 16:31:34,451] {logging_mixin.py:112} INFO - [2020-06-04 16:31:34,451] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:31:34,560] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_india_dag']) retrieved from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:31:34,577] {scheduler_job.py:1284} INFO - Processing covid_india_dag
+[2020-06-04 16:31:34,589] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_india_dag> because no tasks in DAG have SLAs
+[2020-06-04 16:31:34,591] {scheduler_job.py:162} INFO - Processing /home/nineleaps/airflow/dags/covid_india.py took 0.151 seconds
+[2020-06-04 16:32:28,505] {scheduler_job.py:154} INFO - Started process (PID=16391) to work on /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:32:28,510] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/airflow/dags/covid_india.py for tasks to queue
+[2020-06-04 16:32:28,511] {logging_mixin.py:112} INFO - [2020-06-04 16:32:28,511] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:32:28,583] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_india_dag']) retrieved from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:32:28,600] {scheduler_job.py:1284} INFO - Processing covid_india_dag
+[2020-06-04 16:32:28,612] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_india_dag> because no tasks in DAG have SLAs
+[2020-06-04 16:32:28,615] {scheduler_job.py:162} INFO - Processing /home/nineleaps/airflow/dags/covid_india.py took 0.110 seconds
+[2020-06-04 16:33:22,574] {scheduler_job.py:154} INFO - Started process (PID=16443) to work on /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:33:22,584] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/airflow/dags/covid_india.py for tasks to queue
+[2020-06-04 16:33:22,586] {logging_mixin.py:112} INFO - [2020-06-04 16:33:22,585] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:33:22,682] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_india_dag']) retrieved from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:33:22,699] {scheduler_job.py:1284} INFO - Processing covid_india_dag
+[2020-06-04 16:33:22,712] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_india_dag> because no tasks in DAG have SLAs
+[2020-06-04 16:33:22,714] {scheduler_job.py:162} INFO - Processing /home/nineleaps/airflow/dags/covid_india.py took 0.141 seconds
+[2020-06-04 16:34:16,652] {scheduler_job.py:154} INFO - Started process (PID=16507) to work on /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:34:16,660] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/airflow/dags/covid_india.py for tasks to queue
+[2020-06-04 16:34:16,662] {logging_mixin.py:112} INFO - [2020-06-04 16:34:16,661] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:34:16,755] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_india_dag']) retrieved from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:34:16,781] {scheduler_job.py:1284} INFO - Processing covid_india_dag
+[2020-06-04 16:34:16,803] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_india_dag> because no tasks in DAG have SLAs
+[2020-06-04 16:34:16,807] {scheduler_job.py:162} INFO - Processing /home/nineleaps/airflow/dags/covid_india.py took 0.155 seconds
+[2020-06-04 16:35:10,705] {scheduler_job.py:154} INFO - Started process (PID=16561) to work on /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:35:10,708] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/airflow/dags/covid_india.py for tasks to queue
+[2020-06-04 16:35:10,708] {logging_mixin.py:112} INFO - [2020-06-04 16:35:10,708] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:35:10,825] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_india_dag']) retrieved from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:35:10,848] {scheduler_job.py:1284} INFO - Processing covid_india_dag
+[2020-06-04 16:35:10,867] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_india_dag> because no tasks in DAG have SLAs
+[2020-06-04 16:35:10,872] {scheduler_job.py:162} INFO - Processing /home/nineleaps/airflow/dags/covid_india.py took 0.168 seconds
+[2020-06-04 16:36:04,785] {scheduler_job.py:154} INFO - Started process (PID=16647) to work on /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:36:04,795] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/airflow/dags/covid_india.py for tasks to queue
+[2020-06-04 16:36:04,797] {logging_mixin.py:112} INFO - [2020-06-04 16:36:04,796] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:36:04,802] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /home/nineleaps/airflow/dags/covid_india.py
+[2020-06-04 16:36:04,803] {scheduler_job.py:162} INFO - Processing /home/nineleaps/airflow/dags/covid_india.py took 0.018 seconds

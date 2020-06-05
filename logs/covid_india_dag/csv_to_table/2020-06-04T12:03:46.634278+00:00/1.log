@@ -1,0 +1,17 @@
+[2020-06-04 17:35:25,467] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: covid_india_dag.csv_to_table 2020-06-04T12:03:46.634278+00:00 [queued]>
+[2020-06-04 17:35:25,475] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: covid_india_dag.csv_to_table 2020-06-04T12:03:46.634278+00:00 [queued]>
+[2020-06-04 17:35:25,475] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-04 17:35:25,475] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-06-04 17:35:25,475] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-04 17:35:25,484] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): csv_to_table> on 2020-06-04T12:03:46.634278+00:00
+[2020-06-04 17:35:25,489] {standard_task_runner.py:53} INFO - Started process 22565 to run task
+[2020-06-04 17:35:25,535] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: covid_india_dag.csv_to_table 2020-06-04T12:03:46.634278+00:00 [running]> nineleaps-ThinkPad-L470
+[2020-06-04 17:35:28,558] {logging_mixin.py:112} INFO - [2020-06-04 17:35:28,557] {_metadata.py:95} INFO - Compute Engine Metadata server unavailable onattempt 1 of 3
+[2020-06-04 17:35:28,629] {logging_mixin.py:112} INFO - [2020-06-04 17:35:28,628] {_metadata.py:95} INFO - Compute Engine Metadata server unavailable onattempt 2 of 3
+[2020-06-04 17:35:31,634] {logging_mixin.py:112} INFO - [2020-06-04 17:35:31,634] {_metadata.py:95} INFO - Compute Engine Metadata server unavailable onattempt 3 of 3
+[2020-06-04 17:35:36,181] {logging_mixin.py:112} INFO - [2020-06-04 17:35:36,181] {gbq.py:602} INFO - 37 out of 37 rows loaded.
+[2020-06-04 17:35:43,400] {python_operator.py:114} INFO - Done. Returned value was: None
+[2020-06-04 17:35:43,425] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=covid_india_dag, task_id=csv_to_table, execution_date=20200604T120346, start_date=20200604T120525, end_date=20200604T120543
+[2020-06-04 17:35:45,520] {logging_mixin.py:112} INFO - [2020-06-04 17:35:45,519] {local_task_job.py:103} INFO - Task exited with return code 0
