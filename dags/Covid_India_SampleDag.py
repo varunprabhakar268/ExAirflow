@@ -73,13 +73,13 @@ def get_covid_data():
 
 def source_to_csv():
     data = get_covid_data()
-    data.to_csv("/home/nineleaps/Data/CovidData_" + previous_day.strftime("%d-%b-%y") + ".csv", index=False)
+    data.to_csv("/home/nineleaps/airflow/Data/CovidData_" + previous_day.strftime("%d-%b-%y") + ".csv", index=False)
     logging.info("successfully created csv.")
 
 
 def csv_to_table():
     try:
-        data = pd.read_csv('/home/nineleaps/Data/CovidData_' + previous_day.strftime("%d-%b-%y") + '.csv')
+        data = pd.read_csv('/home/nineleaps/airflow/Data/CovidData_' + previous_day.strftime("%d-%b-%y") + '.csv')
         data.to_gbq(destination_table='Covid19.statewise_daily_cases', project_id=project_id,credentials=credentials, if_exists='replace')
         logging.info("successfully uploaded data to table.")
     except GenericGBQException as e:
@@ -98,7 +98,7 @@ def get_row_count_from_table():
 
 
 def get_csv_row_count():
-    input_file = open('/home/nineleaps/Data/CovidData_' + previous_day.strftime("%d-%b-%y") + '.csv', "r+")
+    input_file = open('/home/nineleaps/airflow/Data/CovidData_' + previous_day.strftime("%d-%b-%y") + '.csv', "r+")
     reader_file = csv.reader(input_file)
     return len(list(reader_file))
 
