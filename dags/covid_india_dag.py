@@ -29,7 +29,7 @@ default_args = {
 }
 
 previous_day = datetime.now() - timedelta(days=1)
-credentials = service_account.Credentials.from_service_account_file('/path/to/Key.json',)
+credentials = service_account.Credentials.from_service_account_file('/home/nineleaps/airflow/BQKey.json',)
 project_id = credentials.project_id
 
 
@@ -48,10 +48,13 @@ def get_confirmed_cases():
         return confirmed_cases_df
     except requests.exceptions.HTTPError as err:
         logging.error("Http Error: " + str(err))
+        raise
     except requests.exceptions.Timeout as err:
         logging.error("Timeout Error: " + str(err))
+        raise
     except requests.exceptions.RequestException as e:
         logging.error("Exception: " + str(e))
+        raise
 
 
 def get_states_list():
@@ -66,10 +69,13 @@ def get_states_list():
         return state_list_df
     except requests.exceptions.HTTPError as err:
         logging.error("Http Error: " + str(err))
+        raise
     except requests.exceptions.Timeout as err:
         logging.error("Timeout Error: " + str(err))
+        raise
     except requests.exceptions.RequestException as e:
         logging.error("Exception: " + str(e))
+        raise
 
 
 def get_covid_data():
@@ -93,6 +99,7 @@ def csv_to_table():
         logging.info("successfully uploaded data to table.")
     except GenericGBQException as e:
         logging.error("Exception: " + str(e))
+        raise
 
 
 def get_row_count_from_table():
@@ -102,6 +109,7 @@ def get_row_count_from_table():
         return total_rows_df['total_rows'][0]
     except GenericGBQException as e:
         logging.error("Exception: " + str(e))
+        raise
 
 
 def get_csv_row_count():
@@ -128,6 +136,7 @@ def push_upload_status_to_table():
         logging.info("successfully uploaded data to table.")
     except GenericGBQException as e:
         logging.error("Exception: " + str(e))
+        raise
 
 
 dag = DAG(
